@@ -1,0 +1,79 @@
+body {
+    text-align: center;
+    background-color: #aa96da;
+}
+
+h1 {
+    font-size: 5rem;
+    color: #DBEDF3;
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 #fcbad3;
+
+}
+
+.set {
+    display: flex;
+    border: solid 1px black ;
+    justify-content: center;
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #546368;
+}
+
+.white {
+    border: solid 1px black;
+    margin-left: -1px;
+    position: relative;
+    padding: 200px 0 30px 0;
+    outline: none;
+    font-size: 1rem;
+    font-family: 'Arvo', cursive;
+    font-weight: 700;
+    color: black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 3.9%;
+    height: 11.7%;
+    text-align: center;
+    background-color: white;
+    z-index: 1;
+}
+
+.black {
+    border: solid 1px black;
+    position: absolute;
+    padding: 120px 0 30px 0;
+    outline: none;
+    font-size: 1rem;
+    font-family: 'Arvo', cursive;
+    font-weight: 700;
+    color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 3.125%;
+    height: 11.7%;
+    text-align: center;
+    background-color: black;
+    z-index: 2;
+}
+
+.Db {
+    left: 38.6%;
+}
+
+.Eb {
+    left: 43.1%;
+}
+
+.Gb {
+    right: 47%;
+}
+
+.Ab {
+    right: 42.9%;
+}
+
+.Bb {
+    right: 38.7%;
+}
